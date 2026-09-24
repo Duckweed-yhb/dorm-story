@@ -1,0 +1,29 @@
+# ===== 微信小程序 =====
+# 构建产物 / 编译缓存
+miniprogram/miniprogram_npm/
+miniprogram_npm/
+node_modules/
+*.min.js.map
+.wx_*.tmp
+
+# 开发者工具本地配置（含个人 AppID、云环境等敏感信息，勿提交）
+project.private.config.json
+
+# 编译缓存
+miniprogram/**/*.wxss.uncompile
+miniprogram/**/*.js.uncompile
+
+# ===== 系统 / 编辑器 =====
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*.swo
+.idea/
+.vscode/
+*.log
+
+# ===== 临时与备份 =====
+*.tmp
+*.bak
+*~
